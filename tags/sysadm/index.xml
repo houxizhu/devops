@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sysadm on A DevOps Engineer</title>
+    <link>https://www.adevopsbeginner.site/tags/sysadm/</link>
+    <description>Recent content in Sysadm on A DevOps Engineer</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 May 2025 16:47:04 +1000</lastBuildDate>
+    <atom:link href="https://www.adevopsbeginner.site/tags/sysadm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ansible</title>
+      <link>https://www.adevopsbeginner.site/ansible/</link>
+      <pubDate>Tue, 27 May 2025 16:47:04 +1000</pubDate>
+      <guid>https://www.adevopsbeginner.site/ansible/</guid>
+      <description>Config Management</description>
+    </item>
+  </channel>
+</rss>

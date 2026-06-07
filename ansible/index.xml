@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ansibles on A DevOps Engineer</title>
+    <link>http://localhost:1313/ansible/</link>
+    <description>Recent content in Ansibles on A DevOps Engineer</description>
+    <generator>Hugo -- 0.147.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 May 2025 20:24:46 +1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/ansible/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uno</title>
+      <link>http://localhost:1313/ansible/uno/</link>
+      <pubDate>Tue, 20 May 2025 20:24:46 +1000</pubDate>
+      <guid>http://localhost:1313/ansible/uno/</guid>
+      <description>description</description>
+    </item>
+    <item>
+      <title>AWS EC2 Automation</title>
+      <link>http://localhost:1313/ansible/ec2/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ansible/ec2/</guid>
+      <description>How I set up a simple DevOps lab using Vagrant, Ansible, and Docker.</description>
+    </item>
+  </channel>
+</rss>
