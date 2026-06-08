@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xizhu Hou — DevOps & Platform Engineer</title>
+<meta name="description" content="Xizhu Hou — DevOps / SRE Engineer. Multi-cloud infrastructure automation with Terraform, Kubernetes, Ansible, and CI/CD. AWS & GCP. CKA · AWS DevOps Pro · CCNP.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="cream" data-accent="gold" data-hero="split">
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="Xizhu Hou home">
+      <svg class="mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="37" height="37" rx="10" fill="var(--ink)"></rect>
+        <path d="M11 26V14l5 7 5-7v12" stroke="var(--accent)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M25 14v12M25 20h5M30 14v12" stroke="var(--paper)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <span class="name"><b>Xizhu Hou</b><span class="role">DevOps · SRE · Platform</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a class="link" href="#skills">Skills</a>
+      <a class="link" href="#pipeline">Pipeline</a>
+      <a class="link" href="#architecture">Architecture</a>
+      <a class="link" href="#experience">Experience</a>
+      <a class="link" href="#certs">Certs</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn ghost" href="#contact">Get in touch</a>
+      <a class="btn gold" href="assets/Xizhu-Hou-Resume.pdf" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="M7 10l5 5 5-5"></path><path d="M12 15V3"></path></svg>
+        Résumé
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="status-chip"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"></path><circle cx="12" cy="10" r="2.6"></circle></svg>Contract &amp; freelance · Remote · Australia (AEST)</span>
+      <h1>Infrastructure that<br><span class="grad">ships itself.</span></h1>
+      <p class="sub">I'm <b>Xizhu Hou</b> — a DevOps &amp; SRE engineer who turns fragile, hand-built environments into <b>automated, observable, multi-cloud platforms</b>. Terraform, Kubernetes, Ansible and CI/CD, across AWS and GCP.</p>
+      <div class="hero-cta">
+        <a class="btn gold" href="#contact">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M22 6l-10 7L2 6"></path></svg>
+          Get in touch
+        </a>
+        <a class="btn ghost" href="https://github.com/houxizhu/devops" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.4.5 0 5.9 0 12.5c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 24 12.5C24 5.9 18.6.5 12 .5z"></path></svg>
+          GitHub
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><div class="num">100<span>%</span></div><div class="lbl">Infrastructure as code</div></div>
+        <div class="stat"><div class="num">2</div><div class="lbl">Clouds · AWS &amp; GCP</div></div>
+        <div class="stat"><div class="num">3</div><div class="lbl">Pro certifications</div></div>
+      </div>
+    </div>
+
+    <div class="hero-copy term-wrap">
+      <img class="avatar" src="assets/xizhu.jpg" alt="Xizhu Hou">
+      <div class="terminal" id="terminal">
+        <div class="term-bar">
+          <span class="dots"><i></i><i></i><i></i></span>
+          <span class="ttl"><b>xizhu</b>@infra — ~/platform — zsh</span>
+        </div>
+        <div class="term-body" id="termBody" aria-live="polite"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MARQUEE ===================== -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Terraform</span><span>Kubernetes</span><span>Ansible</span><span>AWS</span><span>GCP</span><span>Docker</span><span>GitHub Actions</span><span>Prometheus</span><span>Grafana</span><span>Python</span><span>Linux</span><span>EKS</span>
+    <span>Terraform</span><span>Kubernetes</span><span>Ansible</span><span>AWS</span><span>GCP</span><span>Docker</span><span>GitHub Actions</span><span>Prometheus</span><span>Grafana</span><span>Python</span><span>Linux</span><span>EKS</span>
+  </div>
+</div>
+
+<!-- ===================== SKILLS ===================== -->
+<section class="skills" id="skills">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Toolbox</span>
+      <h2 class="section-title">A full-stack of <em>platform engineering</em></h2>
+      <p class="lede">Everything below is hands-on, production-tested across healthcare, security, postal and education platforms — not a reading list.</p>
+    </div>
+    <div class="skill-grid">
+      <article class="skill-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg></div>
+        <div class="k">Infra as Code</div>
+        <h3>Provisioning</h3>
+        <div class="tags"><span class="tag">Terraform</span><span class="tag">CloudFormation</span><span class="tag">Modules</span><span class="tag">State mgmt</span></div>
+      </article>
+      <article class="skill-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v6H4z"></path><path d="M4 14h16v6H4z"></path><path d="M8 7h.01M8 17h.01"></path></svg></div>
+        <div class="k">Config Mgmt</div>
+        <h3>Automation</h3>
+        <div class="tags"><span class="tag">Ansible</span><span class="tag">Puppet</span><span class="tag">SaltStack</span></div>
+      </article>
+      <article class="skill-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><path d="M6 9v6"></path><circle cx="18" cy="12" r="3"></circle><path d="M9 6h6a3 3 0 0 1 3 3v0"></path></svg></div>
+        <div class="k">CI / CD</div>
+        <h3>Delivery</h3>
+        <div class="tags"><span class="tag">GitHub Actions</span><span class="tag">GitLab CI</span><span class="tag">GoCD</span><span class="tag">Bitbucket</span></div>
+      </article>
+      <article class="skill-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10a3 3 0 0 0-3-3M4 14a4 4 0 0 0 4 4h9a4 4 0 0 0 .8-7.9A6 6 0 0 0 6.3 9 4 4 0 0 0 4 14z"></path></svg></div>
+        <div class="k">Cloud</div>
+        <h3>Platforms</h3>
+        <div class="tags"><span class="tag">AWS</span><span class="tag">GCP</span><span class="tag">VPC / IAM</span><span class="tag">Networking</span></div>
+      </article>
+      <article class="skill-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8.7 5v10L12 22l-8.7-5V7z"></path><path d="M12 22V12M12 12l8.7-5M12 12L3.3 7"></path></svg></div>
+        <div class="k">Containers</div>
+        <h3>Orchestration</h3>
+        <div class="tags"><span class="tag">Kubernetes</span><span class="tag">Amazon EKS</span><span class="tag">Docker</span><span class="tag">Helm</span></div>
+      </article>
+      <article class="skill-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2 5 4-12 2 7h6"></path></svg></div>
+        <div class="k">Observability</div>
+        <h3>Monitoring</h3>
+        <div class="tags"><span class="tag">Prometheus</span><span class="tag">Grafana</span><span class="tag">New Relic</span><span class="tag">Zabbix</span><span class="tag">Opsgenie</span></div>
+      </article>
+      <article class="skill-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"></rect><path d="M6 8l3 2.5L6 13M11 13h5"></path></svg></div>
+        <div class="k">Linux</div>
+        <h3>Systems</h3>
+        <div class="tags"><span class="tag">Red Hat</span><span class="tag">Amazon Linux</span><span class="tag">CentOS</span><span class="tag">Hardening</span></div>
+      </article>
+      <article class="skill-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-3"></path><path d="M8 7V5a4 4 0 0 1 8 0v2M9 13l2 2 4-4"></path></svg></div>
+        <div class="k">Scripting</div>
+        <h3>Glue &amp; tooling</h3>
+        <div class="tags"><span class="tag">Python</span><span class="tag">Bash</span><span class="tag">Boto3</span><span class="tag">Automation</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PIPELINE ===================== -->
+<section class="pipeline" id="pipeline">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">From commit to production</span>
+      <h2 class="section-title">A CI/CD pipeline, <em>start to finish</em></h2>
+      <p class="lede">This is the shape of the delivery flow I design and run — a git push becomes provisioned infrastructure, a deployed release, and live dashboards. Watch a build move through it.</p>
+    </div>
+
+    <div class="pipe-stage-wrap reveal">
+      <div class="pipe-rail" id="pipeRail">
+        <div class="pipe-node" data-meta="git push origin main">
+          <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+          <div class="cell"><div class="stg-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="18" r="3"></circle><path d="M12 9v3a3 3 0 0 1-3 3H8M12 12a3 3 0 0 0 3 3h1"></path></svg></div><h4>Commit</h4><div class="meta"></div></div>
+        </div>
+        <div class="pipe-node" data-meta="docker build · cache hit">
+          <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+          <div class="cell"><div class="stg-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 7l-5 5 5 5"></path><path d="M3 4v16"></path></svg></div><h4>Build</h4><div class="meta"></div></div>
+        </div>
+        <div class="pipe-node" data-meta="pytest · 248 passed">
+          <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+          <div class="cell"><div class="stg-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2h6M10 2v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V2"></path></svg></div><h4>Test</h4><div class="meta"></div></div>
+        </div>
+        <div class="pipe-node" data-meta="push ghcr.io · signed">
+          <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+          <div class="cell"><div class="stg-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8.7 5v10L12 22l-8.7-5V7z"></path><path d="M12 22V12M12 12l8.7-5M12 12L3.3 7"></path></svg></div><h4>Containerize</h4><div class="meta"></div></div>
+        </div>
+        <div class="pipe-node" data-meta="terraform apply · +12 ~3">
+          <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+          <div class="cell"><div class="stg-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1"></rect><rect x="13" y="3" width="8" height="8" rx="1"></rect><rect x="3" y="13" width="8" height="8" rx="1"></rect><rect x="13" y="13" width="8" height="8" rx="1"></rect></svg></div><h4>Provision</h4><div class="meta"></div></div>
+        </div>
+        <div class="pipe-node" data-meta="kubectl rollout · 6/6 ready">
+          <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+          <div class="cell"><div class="stg-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8.7 5v10L12 22l-8.7-5V7z"></path><circle cx="12" cy="12" r="2.5"></circle></svg></div><h4>Deploy</h4><div class="meta"></div></div>
+        </div>
+        <div class="pipe-node" data-meta="SLO green · 0 alerts">
+          <span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+          <div class="cell"><div class="stg-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2 5 4-12 2 7h6"></path></svg></div><h4>Observe</h4><div class="meta"></div></div>
+        </div>
+      </div>
+
+      <div class="pipe-foot">
+        <div class="pipe-status" id="pipeStatus"><span class="badge">●</span><span id="pipeStatusText">Idle — pipeline ready</span></div>
+        <div class="pipe-bar"><i id="pipeBar"></i></div>
+        <button class="replay" id="pipeReplay"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"></path><path d="M3 3v5h5"></path></svg> Run again</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ARCHITECTURE ===================== -->
+<section class="arch" id="architecture">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Reference architecture</span>
+      <h2 class="section-title">A multi-cloud platform I'd <em>build for you</em></h2>
+      <p class="lede">GitOps-driven, Terraform-managed, running on EKS and GKE with a shared observability backbone. The kind of resilient, code-defined system behind the teams I've supported.</p>
+    </div>
+
+    <div class="arch-card reveal">
+      <svg class="diagram" viewBox="0 0 1000 540" role="img" aria-label="Multi-cloud GitOps platform architecture diagram">
+        <defs>
+          <linearGradient id="awsg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff9d2f"></stop><stop offset="1" stop-color="#ff7b00"></stop></linearGradient>
+          <linearGradient id="gcpg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5b9bff"></stop><stop offset="1" stop-color="#2f73d8"></stop></linearGradient>
+        </defs>
+
+        <!-- group frames -->
+        <rect x="356" y="92" width="300" height="150" rx="14" fill="none" stroke="var(--line-strong)" stroke-dasharray="4 5"></rect>
+        <text class="svg-grp" x="372" y="84" font-size="12" fill="var(--ink-3)">CI / CD control plane</text>
+
+        <rect x="40" y="300" width="430" height="170" rx="14" fill="color-mix(in srgb, #ff7b00 7%, transparent)" stroke="color-mix(in srgb,#ff7b00 35%,transparent)"></rect>
+        <text class="svg-grp" x="58" y="324" font-size="12" fill="#d97700">AWS · ap-southeast-2</text>
+
+        <rect x="530" y="300" width="430" height="170" rx="14" fill="color-mix(in srgb, #2f73d8 7%, transparent)" stroke="color-mix(in srgb,#2f73d8 35%,transparent)"></rect>
+        <text class="svg-grp" x="548" y="324" font-size="12" fill="#2f73d8">GCP · australia-southeast1</text>
+
+        <!-- connectors -->
+        <g fill="none" stroke="var(--accent-deep)" stroke-width="2.4">
+          <path class="flow" d="M150 152 H356"></path>
+          <path class="flow" d="M656 152 H770 V152"></path>
+          <path class="flow" d="M506 242 V270 H255 V300"></path>
+          <path class="flow" d="M506 242 V270 H745 V300"></path>
+        </g>
+        <g fill="none" stroke="var(--structure-2)" stroke-width="2" stroke-dasharray="2 6" opacity="0.85">
+          <path d="M255 470 V500 H745 V470"></path>
+        </g>
+
+        <!-- developer -->
+        <g>
+          <rect class="node-rect" x="40" y="118" width="110" height="68" rx="11" fill="var(--ink)"></rect>
+          <text class="svg-label" x="95" y="146" font-size="14" fill="var(--paper)" text-anchor="middle">Developer</text>
+          <text class="svg-sub" x="95" y="166" font-size="10.5" fill="var(--accent)" text-anchor="middle">git push</text>
+        </g>
+
+        <!-- github actions -->
+        <g>
+          <rect class="node-rect" x="378" y="112" width="120" height="78" rx="11" fill="var(--paper)" stroke="var(--line-strong)" stroke-width="1.5"></rect>
+          <text class="svg-label" x="438" y="142" font-size="13.5" fill="var(--ink)" text-anchor="middle">GitHub Actions</text>
+          <text class="svg-sub" x="438" y="161" font-size="10" fill="var(--ink-2)" text-anchor="middle">build · test · scan</text>
+        </g>
+        <!-- terraform -->
+        <g>
+          <rect class="node-rect" x="514" y="112" width="120" height="78" rx="11" fill="var(--paper)" stroke="var(--line-strong)" stroke-width="1.5"></rect>
+          <text class="svg-label" x="574" y="142" font-size="13.5" fill="var(--ink)" text-anchor="middle">Terraform</text>
+          <text class="svg-sub" x="574" y="161" font-size="10" fill="var(--ink-2)" text-anchor="middle">plan / apply</text>
+        </g>
+        <!-- registry -->
+        <g>
+          <rect class="node-rect" x="770" y="118" width="120" height="68" rx="11" fill="var(--ink)"></rect>
+          <text class="svg-label" x="830" y="146" font-size="13" fill="var(--paper)" text-anchor="middle">Registry</text>
+          <text class="svg-sub" x="830" y="165" font-size="10" fill="var(--accent)" text-anchor="middle">signed images</text>
+        </g>
+
+        <!-- AWS nodes -->
+        <g>
+          <rect class="node-rect" x="64" y="352" width="118" height="96" rx="11" fill="var(--paper)" stroke="url(#awsg)" stroke-width="2"></rect>
+          <text class="svg-label" x="123" y="392" font-size="13.5" fill="var(--ink)" text-anchor="middle">Amazon EKS</text>
+          <text class="svg-sub" x="123" y="411" font-size="9.5" fill="var(--ink-2)" text-anchor="middle">microservices</text>
+        </g>
+        <g>
+          <rect class="node-rect" x="196" y="352" width="118" height="96" rx="11" fill="var(--paper)" stroke="var(--line-strong)" stroke-width="1.5"></rect>
+          <text class="svg-label" x="255" y="386" font-size="12.5" fill="var(--ink)" text-anchor="middle">RDS</text>
+          <text class="svg-label" x="255" y="406" font-size="12.5" fill="var(--ink)" text-anchor="middle">S3 · IAM</text>
+        </g>
+        <g>
+          <rect class="node-rect" x="328" y="352" width="118" height="96" rx="11" fill="var(--paper)" stroke="var(--line-strong)" stroke-width="1.5"></rect>
+          <text class="svg-label" x="387" y="386" font-size="12.5" fill="var(--ink)" text-anchor="middle">VPC</text>
+          <text class="svg-sub" x="387" y="406" font-size="9.5" fill="var(--ink-2)" text-anchor="middle">ALB · NAT</text>
+        </g>
+
+        <!-- GCP nodes -->
+        <g>
+          <rect class="node-rect" x="554" y="352" width="118" height="96" rx="11" fill="var(--paper)" stroke="url(#gcpg)" stroke-width="2"></rect>
+          <text class="svg-label" x="613" y="392" font-size="13.5" fill="var(--ink)" text-anchor="middle">GKE</text>
+          <text class="svg-sub" x="613" y="411" font-size="9.5" fill="var(--ink-2)" text-anchor="middle">burst capacity</text>
+        </g>
+        <g>
+          <rect class="node-rect" x="686" y="352" width="118" height="96" rx="11" fill="var(--paper)" stroke="var(--line-strong)" stroke-width="1.5"></rect>
+          <text class="svg-label" x="745" y="386" font-size="12.5" fill="var(--ink)" text-anchor="middle">Cloud SQL</text>
+          <text class="svg-sub" x="745" y="406" font-size="9.5" fill="var(--ink-2)" text-anchor="middle">BigQuery</text>
+        </g>
+        <g>
+          <rect class="node-rect" x="818" y="352" width="118" height="96" rx="11" fill="var(--paper)" stroke="var(--line-strong)" stroke-width="1.5"></rect>
+          <text class="svg-label" x="877" y="386" font-size="12.5" fill="var(--ink)" text-anchor="middle">VPC</text>
+          <text class="svg-sub" x="877" y="406" font-size="9.5" fill="var(--ink-2)" text-anchor="middle">Cloud LB</text>
+        </g>
+
+        <!-- observability bar -->
+        <g>
+          <rect class="node-rect" x="290" y="486" width="420" height="40" rx="11" fill="var(--structure)"></rect>
+          <text class="svg-label" x="500" y="511" font-size="12.5" fill="#fff" text-anchor="middle">Observability · Prometheus · Grafana · New Relic · Opsgenie</text>
+        </g>
+      </svg>
+
+      <div class="arch-legend">
+        <div class="li"><span class="sw" style="background:var(--accent-deep)"></span>Code &amp; image flow</div>
+        <div class="li"><span class="sw" style="background:var(--structure-2)"></span>Metrics &amp; alerts</div>
+        <div class="li"><span class="sw" style="background:url(#awsg);background:#ff7b00"></span>AWS region</div>
+        <div class="li"><span class="sw" style="background:#2f73d8"></span>GCP region</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXPERIENCE ===================== -->
+<section class="exp" id="experience">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Track record</span>
+      <h2 class="section-title">Where I've kept <em>production honest</em></h2>
+      <p class="lede">Healthcare, application security, national post, and education — high-stakes environments where reliability isn't optional.</p>
+    </div>
+
+    <div class="timeline">
+      <article class="job now reveal">
+        <span class="node"></span>
+        <h3>DevOps Engineer · <span class="co">Ramsay Health Care</span><span class="now-badge">Current</span></h3>
+        <p class="ctx">Large-scale healthcare IT platforms — cloud, enterprise infrastructure and data platforms supporting hospitals, analytics and digital clinical systems.</p>
+        <ul>
+          <li>Provision and manage <b>AWS &amp; GCP</b> infrastructure with Terraform; operate Kubernetes clusters incl. deployments and secrets management.</li>
+          <li>Build and maintain <b>GitHub Actions</b> CI/CD to automate build, test and deploy workflows for cloud-native apps.</li>
+          <li>Standardised deployment workflows across dev / staging / production, improving stability and cutting manual error.</li>
+          <li>Manage access controls and secrets to <b>security and compliance</b> standards; proactive monitoring and incident response.</li>
+        </ul>
+      </article>
+
+      <article class="job reveal">
+        <span class="node"></span>
+        <h3>DevOps Engineer · <span class="co">IriusRisk</span></h3>
+        <p class="ctx">Threat-modeling platform automating secure design at scale.</p>
+        <ul>
+          <li>Led migration from <b>CloudFormation to Terraform</b>, improving maintainability and enabling better team collaboration.</li>
+          <li>Automated configuration with <b>Ansible</b> for consistency and reduced downtime across production and staging.</li>
+          <li>Standardised monitoring by automating <b>New Relic &amp; Grafana</b> — consistent alerting wired into application services.</li>
+          <li>Delivered an <b>Amazon EKS</b> proof-of-concept, enabling the move to Kubernetes-based microservices.</li>
+        </ul>
+      </article>
+
+      <article class="job reveal">
+        <span class="node"></span>
+        <h3>Linux Specialist · <span class="co">Australia Post</span></h3>
+        <p class="ctx">Contract — large-scale Red Hat estate.</p>
+        <ul>
+          <li>Automated deployment and configuration with <b>Ansible</b> for consistency across a large Red Hat environment.</li>
+          <li>Administered Red Hat Linux and midrange platforms — performance, <b>security hardening</b> and user management.</li>
+        </ul>
+      </article>
+
+      <article class="job reveal">
+        <span class="node"></span>
+        <h3>Site Reliability Engineer · <span class="co">Compass Education</span></h3>
+        <p class="ctx">Web-based school management system connecting 2,000+ schools.</p>
+        <ul>
+          <li>On-premise deployment project with <b>Ansible</b>; tooling containerised.</li>
+          <li>Administered <b>4 Kubernetes clusters</b> including production and staging.</li>
+          <li>Day-to-day monitoring across <b>Zabbix, Grafana, Opsgenie and Prometheus</b>.</li>
+        </ul>
+      </article>
+
+      <article class="job reveal">
+        <span class="node"></span>
+        <h3>System Administrator · <span class="co">DoubleIQ</span></h3>
+        <p class="ctx">Data analysis and business services.</p>
+        <ul>
+          <li>Managed and upgraded <b>100+ CentOS VMs</b>.</li>
+          <li>Installed and configured core tool servers — <b>Zabbix, PostgreSQL, GitLab</b>.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CERTS ===================== -->
+<section class="certs" id="certs">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Credentials</span>
+      <h2 class="section-title">Certified where it <em>counts</em></h2>
+    </div>
+    <div class="cert-grid">
+      <article class="cert reveal">
+        <span class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8.7 5v10L12 22l-8.7-5V7z"></path><path d="M12 22V12M12 12l8.7-5M12 12L3.3 7"></path></svg></span>
+        <div><div class="code">CKA</div><h4>Certified Kubernetes Administrator</h4><p>The Linux Foundation · CNCF</p></div>
+      </article>
+      <article class="cert reveal">
+        <span class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10a3 3 0 0 0-3-3M4 14a4 4 0 0 0 4 4h9a4 4 0 0 0 .8-7.9A6 6 0 0 0 6.3 9 4 4 0 0 0 4 14z"></path></svg></span>
+        <div><div class="code">DOP-C02</div><h4>AWS Certified DevOps Engineer — Professional</h4><p>Amazon Web Services</p></div>
+      </article>
+      <article class="cert reveal">
+        <span class="seal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2"></circle><path d="M5 12a7 7 0 0 1 14 0M2 12a10 10 0 0 1 20 0"></path></svg></span>
+        <div><div class="code">CCNP</div><h4>Cisco Certified Network Professional</h4><p>Cisco Systems</p></div>
+      </article>
+    </div>
+    <div class="edu-row">
+      <span class="e-ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1 2.7 3 6 3s6-2 6-3v-5"></path></svg></span>
+      <span><b>M.Sc. Computer Science</b> — Beijing University of Posts &amp; Telecommunications (BUPT)</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-card reveal">
+      <div class="inner">
+        <span class="eyebrow">Let's talk</span>
+        <h2>Need infrastructure that<br><em>just works?</em></h2>
+        <p>Whether it's a Terraform refactor, a Kubernetes migration, a CI/CD overhaul, or keeping production calm at 3am — let's talk.</p>
+        <div class="contact-actions">
+          <a class="btn gold" href="mailto:houxizhu@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:17px;height:17px"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M22 6l-10 7L2 6"></path></svg>
+            houxizhu@gmail.com
+          </a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/houxizhu/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn ghost" href="assets/Xizhu-Hou-Resume.pdf" target="_blank" rel="noopener">Download résumé</a>
+        </div>
+        <div class="contact-meta">
+          <a href="https://github.com/houxizhu/devops" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.4.5 0 5.9 0 12.5c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 24 12.5C24 5.9 18.6.5 12 .5z"></path></svg>github.com/houxizhu</a>
+          <a href="https://www.adevopsbeginner.site" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"></path></svg>adevopsbeginner.site</a>
+          <a href="tel:+61410183138"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg>0410 183 138</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span class="small">© 2026 Xizhu Hou · DevOps &amp; Platform Engineer · Built &amp; deployed as code.</span>
+    <div class="socials">
+      <a href="https://github.com/houxizhu/devops" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.4.5 0 5.9 0 12.5c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 24 12.5C24 5.9 18.6.5 12 .5z"></path></svg></a>
+      <a href="https://www.linkedin.com/in/houxizhu/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5v-9h3zM6.5 8.3a1.8 1.8 0 1 1 0-3.6 1.8 1.8 0 0 1 0 3.6zM19 19h-3v-4.7c0-1.1 0-2.5-1.5-2.5S12.7 13 12.7 14.2V19h-3v-9h2.9v1.2h.05A3.2 3.2 0 0 1 15.5 9.7c3.1 0 3.7 2 3.7 4.7z"></path></svg></a>
+      <a href="mailto:houxizhu@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M22 6l-10 7L2 6"></path></svg></a>
+    </div>
+  </div>
+</footer>
+
+</main>
+
+<!-- React + Babel for the Tweaks panel only -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<div id="tweaks-root"></div>
+<script src="site.js"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="tweaks-app.jsx"></script>
+
+<template id="__bundler_thumbnail">
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100" height="100" fill="#1b2417"></rect>
+    <path d="M30 64V36l10 14 10-14v28" fill="none" stroke="#ffd600" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M58 36v28M58 50h11M69 36v28" fill="none" stroke="#f3eedd" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </svg>
+</template>
+
+</body>
+</html>
