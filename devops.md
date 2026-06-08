@@ -1,8 +1,3 @@
-# me
-Xizhu Hou
-https://www.linkedin.com/in/houxizhu/
-DevOps Engineer
-
 # devops
 devops = linux+ansible+terraform+kubernetes+aws+gcp+python+pipelines+observability
 
