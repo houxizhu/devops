@@ -1,4 +1,11 @@
+# me
+Xizhu Hou
+https://www.linkedin.com/in/houxizhu/
+DevOps Engineer
+
 # devops
+devops = linux+ansible+terraform+kubernetes+aws+gcp+python+pipelines+observability
+
 # DevOps Portfolio
 
 Welcome to my DevOps Portfolio! This repository is a collection of projects that demonstrate my expertise in DevOps tools and practices, including **Terraform**, **Ansible**, and **Python** scripting. Each project below highlights specific skills related to infrastructure provisioning, automation, and configuration management in a cloud environment.
